@@ -12,7 +12,9 @@ jobs:
         with:
           java-version: '17'
           distribution: 'adopt'
-      - name: Publish package
-        run: mvn --batch-mode deploy
+      - name: Build and publish Kafka package
+        run: |
+          cd main/java/com/KafkaImplements/KafkaImplements/kafka  # Substitua pelo caminho para o subprojeto Kafka
+          mvn --batch-mode deploy
         env:
           GITHUB_TOKEN: ${{ secrets.JAVA_TOKEN }}
