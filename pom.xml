@@ -10,19 +10,19 @@
 	</parent>
 	<groupId>com.KafkaImplements</groupId>
 	<artifactId>KafkaImplements</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>KafkaImplements</name>
 	<description>Kafka Implements package</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
-	  <distributionManagement>
-	    <repository>
-	      <id>github</id>
-	      <name>GitHub Packages</name>
-	      <url>https://maven.pkg.github.com/alexandresout0/kafkaImplements</url>
-	    </repository>
- 	 </distributionManagement>
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/alexandresout0/kafkaImplements</url>
+		</repository>
+	</distributionManagement>
 	
 	<dependencies>
 		<dependency>
